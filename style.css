@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+  --dark-purple: #27095c;
+  --purple: #230062;
+  --light-purple: #745784;
+  --gray: #c7bebe;
+}
+
+body{
+  background-color: var(--light-purple);
+}
+
+.site-header{
+  background-color: var(--dark-purple);
+  font-family: 'Roboto', sans-serif;
+}
+
+.currency-card{
+  background-color: var(--light-purple);
+}
+
+.currency-title{
+  font-family: 'Lato', sans-serif;
+}
+
+.currency-symbol{
+  color: var(--gray);
+}
+
+.currency-price{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.site-footer{
+  background-color: var(--dark-purple);
+  font-family: 'Roboto', sans-serif;
+}
+
+.currency-card:nth-child(1),
+.currency-card:nth-child(4){
+  background: linear-gradient(180deg, #230062 0%, rgba(35, 0, 98, 0.56) 100%)
+}
+
+.currency-card:nth-child(2),
+.currency-card:nth-child(5){
+  background: linear-gradient(180deg, #2d2b32 0%, rgba(45, 43, 50, 0.56) 100%)
+}
+
+.currency-card:nth-child(3),
+.currency-card:nth-child(6){
+  background: linear-gradient(180deg, #1a0c33 0%, rgba(27, 12, 54, 0.47) 100%)
+}
